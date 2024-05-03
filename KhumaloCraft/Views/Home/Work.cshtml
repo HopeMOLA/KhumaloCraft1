@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "MYWORK";
+}
+
+<h1></h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KhumaloCraft - Work Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Include any other necessary stylesheets, meta tags, or scripts here -->
+    <style>
+        /* Custom CSS for this page */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #CD7F32; /* Beige */
+            color: #4d3319; /* Dark Brown */
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px 0;
+        }
+
+            nav a {
+                text-decoration: none;
+                color: #333; /* Dark gray color */
+                padding: 0 20px;
+            }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+        }
+
+            section h2 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+
+    <header>
+        <div class="container">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search for crafts...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+</head>
+<body>
+
+
+
+    <section id="products">
+        <h2>Featured Products</h2>
+
+
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4 mb-4 product-item" data-category="Wisket">
+                <div class="card h-100 product-card">
+                    <img src="~/images/product1.png" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Basket </h5>
+                        <p class="card-text">The popular Wisket Basket, We have a variety of shapes, styles and colours to choose from.</p>
+                        <p class="card-text">R150.00</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-4 mb-4 product-item" data-category="Bowl">
+                <div class="card h-100 product-card">
+                    <img src="~/images/product2.png" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Wooden Bowl</h5>
+                        <p class="card-text">A traditional bowl made from wood typically used for storing snacks and food.</p>
+                        <p class="card-text">R100.00</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-4 mb-4 product-item" data-category="clay">
+                <div class="card h-100 product-card">
+                    <img src="~/images/product3.png" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Clay vase</h5>
+                        <p class="card-text">These traditional clay or earthenware vessels come in many shapes and sizes and have been used around the world since prehistoric times</p>
+                        <p class="card-text">R270.00</p>
+
+
+
+                    </div>
+                </div>
+            </div>
+            
+
+
+        <footer>
+            <p>Contact us: info@khumalocraft.com</p>
+        </footer>
+</body>
+</html>
